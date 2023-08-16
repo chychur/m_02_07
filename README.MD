@@ -3,7 +3,7 @@
 
 A database was created, the schema of which contains:
 
-![DB schema](/db/college.png)
+![DB schema](https://github.com/chychur/m_02_06/raw/master/db/college.png)
 
 of `students`, `groups`, `teachers`, `discipline` (with an indication of the teacher who reads the subject) and `score_log`(a table where each student has grades from subjects with an indication of when the grade was received).
 The database was filled with fake data (30 students, 3 groups, 5 subjects and 5 teachers, and up to 20 grades for each student in all subjects). The Faker package was used to create fake data.
@@ -21,4 +21,4 @@ Make the following selections from the obtained database:
 9. Find the list of courses attended by the student.
 10. A list of courses taught to a particular student by a particular teacher.
 
-Each request is in a separate file `query_number.sql`, where instead of `number` is the number of the request from the list.
+For requests, was created a separate file `my_select.py`, where there will be 10 functions from `select_1` to `select_10`. Execution of those functions returns a result similar to the previous homework. For requests, had been used the SQLAlchemy session mechanism.
